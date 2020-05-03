@@ -54,7 +54,7 @@
                 </div>
                 <div class='modal-body'>
                     <div class='filter-category'>
-                        <div id="filter-name-class" class="btn filter-name filter-exclusive" onclick="toggleExclusive(this)">Class</div>
+                        <div id="filter-name-class" class="btn filter-name filter-exclusive" onclick="toggleExclusive(this)">Rôle</div>
                         <div class='filter-category-content'>
                             <div class="op-class btn-secondary" data-id="CASTER" section="class" onclick="toggleBtn(this)"><img width='40' height="40" src='img/classes/class_caster.png'></div>
                             <div class="op-class btn-secondary" data-id="WARRIOR" section="class" onclick="toggleBtn(this)"><img width='40' height="40" src='img/classes/class_guard.png'></div>
@@ -65,49 +65,49 @@
                             <div class="op-class btn-secondary" data-id="TANK" section="class" onclick="toggleBtn(this)"><img width='40' height="40" src='img/classes/class_defender.png'></div>
                             <div class="op-class btn-secondary" data-id="PIONEER" section="class" onclick="toggleBtn(this)"><img width='40' height="40" src='img/classes/class_vanguard.png'></div>
                         </div>
-                        <div class="btn btn-danger btn-clear" id="clear-filter-class" onclick="clearFilter('.op-class, .op-subclass')" clear-data=".op-class, .op-subclass">Clear</div>
+                        <div class="btn btn-danger btn-clear" id="clear-filter-class" onclick="clearFilter('.op-class, .op-subclass')" clear-data=".op-class, .op-subclass">Supprimer</div>
                     </div>
 
                     <div class="collapsible-closed" onclick="collapse(this)" target="collapsed-section">Advanced options<div class="fas fa-angle-down" style="float: right; margin-right: 10px; margin-top: 2px;"></div></div>
                     <div class="collapsed-section-closed" id="collapsed-section" style="max-height: 0;">
                         <div class='filter-category'>
-                            <div id="filter-name-subclass" class="btn filter-name filter-exclusive" onclick="toggleExclusive(this)">Subclass</div>
+                            <div id="filter-name-subclass" class="btn filter-name filter-exclusive" onclick="toggleExclusive(this)">Sous-rôle</div>
                             <div class='filter-category-content' id="subclass-container">
                             </div>
-                            <div class="btn btn-danger btn-clear" id="clear-filter-subclass" onclick="clearFilter('.op-subclass')" clear-data=".op-subclass">Clear</div>
+                            <div class="btn btn-danger btn-clear" id="clear-filter-subclass" onclick="clearFilter('.op-subclass')" clear-data=".op-subclass">Supprimer</div>
                         </div>
 
                         <div class='filter-category'>
-                            <div id="filter-name-gender" class="btn filter-name filter-exclusive" onclick="toggleExclusive(this)">Gender</div>
+                            <div id="filter-name-gender" class="btn filter-name filter-exclusive" onclick="toggleExclusive(this)">Genre</div>
                             <div class='filter-category-content'>
                                 <div class="btn btn-secondary btn-sm my-1 op-gender filter-btn" onclick="toggleBtn(this)" section="gender" data-id="0"></div>
                                 <div class="btn btn-secondary btn-sm my-1 op-gender filter-btn" onclick="toggleBtn(this)" section="gender" data-id="1"></div>
                             </div>
-                            <div class="btn btn-danger btn-clear" id="clear-filter-gender" onclick="clearFilter('.op-gender')" clear-data=".op-gender">Clear</div>
+                            <div class="btn btn-danger btn-clear" id="clear-filter-gender" onclick="clearFilter('.op-gender')" clear-data=".op-gender">Supprimer</div>
                         </div>
 
                         <div class='filter-category'>
                             <div id="filter-name-tag" class="btn filter-name filter-exclusive" onclick="toggleExclusive(this)">Tags</div>
                             <div class='filter-category-content'>
-                                <div class="btn btn-secondary btn-sm my-1 op-tag filter-btn-s" onclick="toggleBtn(this)" data-id="Melee"></div>
-                                <div class="btn btn-secondary btn-sm my-1 op-tag filter-btn-s" onclick="toggleBtn(this)" data-id="Ranged"></div>
-                                <div class="btn btn-secondary btn-sm my-1 op-tag filter-btn-s" onclick="toggleBtn(this)" data-id="Healing"></div>
-                                <div class="btn btn-secondary btn-sm my-1 op-tag filter-btn-s" onclick="toggleBtn(this)" data-id="Support"></div>
+                                <div class="btn btn-secondary btn-sm my-1 op-tag filter-btn-s" onclick="toggleBtn(this)" data-id="Mêlée"></div>
+                                <div class="btn btn-secondary btn-sm my-1 op-tag filter-btn-s" onclick="toggleBtn(this)" data-id="Distance"></div>
+                                <div class="btn btn-secondary btn-sm my-1 op-tag filter-btn-s" onclick="toggleBtn(this)" data-id="Soin"></div>
+                                <div class="btn btn-secondary btn-sm my-1 op-tag filter-btn-s" onclick="toggleBtn(this)" data-id="Renfort"></div>
                                 <div class="btn btn-secondary btn-sm my-1 op-tag filter-btn-s" onclick="toggleBtn(this)" data-id="DPS"></div>
-                                <div class="btn btn-secondary btn-sm my-1 op-tag filter-btn-s" onclick="toggleBtn(this)" data-id="AoE"></div>
-                                <div class="btn btn-secondary btn-sm my-1 op-tag filter-btn-s" onclick="toggleBtn(this)" data-id="Slow"></div>
-                                <div class="btn btn-secondary btn-sm my-1 op-tag filter-btn-s" onclick="toggleBtn(this)" data-id="Survival"></div>
-                                <div class="btn btn-secondary btn-sm my-1 op-tag filter-btn-s" onclick="toggleBtn(this)" data-id="Defense"></div>
-                                <div class="btn btn-secondary btn-sm my-1 op-tag filter-btn-s" onclick="toggleBtn(this)" data-id="Debuff"></div>
-                                <div class="btn btn-secondary btn-sm my-1 op-tag filter-btn-s" onclick="toggleBtn(this)" data-id="Shift"></div>
-                                <div class="btn btn-secondary btn-sm my-1 op-tag filter-btn-s" onclick="toggleBtn(this)" data-id="Crowd Control"></div>
-                                <div class="btn btn-secondary btn-sm my-1 op-tag filter-btn-s" onclick="toggleBtn(this)" data-id="Nuker"></div>
-                                <div class="btn btn-secondary btn-sm my-1 op-tag filter-btn-s" onclick="toggleBtn(this)" data-id="Summon"></div>
-                                <div class="btn btn-secondary btn-sm my-1 op-tag filter-btn-s" onclick="toggleBtn(this)" data-id="Fast-Redeploy"></div>
-                                <div class="btn btn-secondary btn-sm my-1 op-tag filter-btn-s" onclick="toggleBtn(this)" data-id="DP-Recovery"></div>
+                                <div class="btn btn-secondary btn-sm my-1 op-tag filter-btn-s" onclick="toggleBtn(this)" data-id="Zone d'effet"></div>
+                                <div class="btn btn-secondary btn-sm my-1 op-tag filter-btn-s" onclick="toggleBtn(this)" data-id="Ralentissement"></div>
+                                <div class="btn btn-secondary btn-sm my-1 op-tag filter-btn-s" onclick="toggleBtn(this)" data-id="Survie"></div>
+                                <div class="btn btn-secondary btn-sm my-1 op-tag filter-btn-s" onclick="toggleBtn(this)" data-id="Défense"></div>
+                                <div class="btn btn-secondary btn-sm my-1 op-tag filter-btn-s" onclick="toggleBtn(this)" data-id="Affaiblissement"></div>
+                                <div class="btn btn-secondary btn-sm my-1 op-tag filter-btn-s" onclick="toggleBtn(this)" data-id="Déplacement"></div>
+                                <div class="btn btn-secondary btn-sm my-1 op-tag filter-btn-s" onclick="toggleBtn(this)" data-id="Contrôle de foule"></div>
+                                <div class="btn btn-secondary btn-sm my-1 op-tag filter-btn-s" onclick="toggleBtn(this)" data-id="Destruction massive"></div>
+                                <div class="btn btn-secondary btn-sm my-1 op-tag filter-btn-s" onclick="toggleBtn(this)" data-id="Invocation"></div>
+                                <div class="btn btn-secondary btn-sm my-1 op-tag filter-btn-s" onclick="toggleBtn(this)" data-id="Redéploiement-Rapide"></div>
+                                <div class="btn btn-secondary btn-sm my-1 op-tag filter-btn-s" onclick="toggleBtn(this)" data-id="Récupération-PC"></div>
                                 <div class="btn btn-secondary btn-sm my-1 op-tag filter-btn-s" onclick="toggleBtn(this)" data-id="Robot"></div>
                             </div>
-                            <div class="btn btn-danger btn-clear" id="clear-filter-tag" onclick="clearFilter('.op-tag')" clear-data=".op-tag">Clear</div>
+                            <div class="btn btn-danger btn-clear" id="clear-filter-tag" onclick="clearFilter('.op-tag')" clear-data=".op-tag">Supprimer</div>
                         </div>
 
                         <div class='filter-category'>
@@ -130,16 +130,16 @@
                                 <div class="op-faction btn-secondary" data-id="LOGO_LEITHANIEN" onclick="toggleBtn(this)" section="faction"><img width='40' src='img/factions/logo_leithanien.png'></div>
                                 <div class="op-faction btn-secondary" data-id="LOGO_RIM" onclick="toggleBtn(this)" section="faction"><img width='40' src='img/factions/logo_rim.png'></div>
                             </div>
-                            <div class="btn btn-danger btn-clear" id="clear-filter-faction" onclick="clearFilter('.op-faction')" clear-data=".op-faction">Clear</div>
+                            <div class="btn btn-danger btn-clear" id="clear-filter-faction" onclick="clearFilter('.op-faction')" clear-data=".op-faction">Supprimer</div>
                         </div>
 
                         <div class='filter-category'>
-                            <div id="filter-name-skill" class="btn filter-exclusive filter-name" onclick="toggleExclusive(this)">Skill type</div>
+                            <div id="filter-name-skill" class="btn filter-exclusive filter-name" onclick="toggleExclusive(this)">Récupération des PC</div>
                             <div class='filter-category-content'>
-                                <div class="btn btn-secondary btn-sm my-1 op-skill filter-btn" section="skill" onclick="toggleBtn(this)" data-id=1>Per second</div>
-                                <div class="btn btn-secondary btn-sm my-1 op-skill filter-btn" section="skill" onclick="toggleBtn(this)" data-id=2>Attacking Enemy</div>
-                                <div class="btn btn-secondary btn-sm my-1 op-skill filter-btn" section="skill" onclick="toggleBtn(this)" data-id=4>Getting Hit</div>
-                                <div class="btn btn-secondary btn-sm my-1 op-skill filter-btn" section="skill" onclick="toggleBtn(this)" data-id=8>Always On</div>
+                                <div class="btn btn-secondary btn-sm my-1 op-skill filter-btn" section="skill" onclick="toggleBtn(this)" data-id=1>Automatique</div>
+                                <div class="btn btn-secondary btn-sm my-1 op-skill filter-btn" section="skill" onclick="toggleBtn(this)" data-id=2>En attaquant</div>
+                                <div class="btn btn-secondary btn-sm my-1 op-skill filter-btn" section="skill" onclick="toggleBtn(this)" data-id=4>En recevant des dégâts</div>
+                                <div class="btn btn-secondary btn-sm my-1 op-skill filter-btn" section="skill" onclick="toggleBtn(this)" data-id=8>Toujours active</div>
                             </div>
                             <div class="btn btn-danger btn-clear" id="clear-filter-skill" onclick="clearFilter('.op-skill')" clear-data=".op-skill">Clear</div>
                         </div>
@@ -147,14 +147,14 @@
                         <div class='filter-category'>
                             <div class="filter-name" >Sort By</div>
                             <div class='filter-category-content'>
-                                <div class="filter-btn btn-secondary btn-sm my-1 btn-disabled btn-sort" id="sort-atk" onclick="switchState(this)"><span style="margin-right: 5px;">ATK</span><div class="btn fas fa-sort-amount-down" id="order-atk" onclick="invertSort(this)"></div></div>
-                                <div class="filter-btn btn-secondary btn-sm my-1 btn-disabled btn-sort" id="sort-def" onclick="switchState(this)"><span style="margin-right: 5px;">DEF</span><div class="btn fas fa-sort-amount-down" id="order-def" onclick="invertSort(this)"></div></div>
-                                <div class="filter-btn btn-secondary btn-sm my-1 btn-disabled btn-sort" id="sort-hp" onclick="switchState(this)"><span style="margin-right: 5px;">HP</span><div class="btn fas fa-sort-amount-down" id="order-hp" onclick="invertSort(this)"></div></div>
-                                <div class="filter-btn btn-secondary btn-sm my-1 btn-disabled btn-sort" id="sort-dp" onclick="switchState(this)"><span style="margin-right: 5px;">DP COST</span><div class="btn fas fa-sort-amount-down" id="order-dp" onclick="invertSort(this)"></div></div>
-                                <div class="filter-btn btn-secondary btn-sm my-1 btn-disabled btn-sort" id="sort-block" onclick="switchState(this)"><span style="margin-right: 5px;">BLOCK COUNT</span><div class="btn fas fa-sort-amount-down" id="order-block" onclick="invertSort(this)"></div></div>
-                                <div class="filter-btn btn-secondary btn-sm my-1 btn-enabled btn-sort" id="sort-rarity" onclick="switchState(this)"><span style="margin-right: 5px;">RARITY</span><div class="btn fas fa-sort-amount-down" id="order-rarity" onclick="invertSort(this)"></div></div>
+                                <div class="filter-btn btn-secondary btn-sm my-1 btn-disabled btn-sort" id="sort-atk" onclick="switchState(this)"><span style="margin-right: 5px;">ATQ</span><div class="btn fas fa-sort-amount-down" id="order-atk" onclick="invertSort(this)"></div></div>
+                                <div class="filter-btn btn-secondary btn-sm my-1 btn-disabled btn-sort" id="sort-def" onclick="switchState(this)"><span style="margin-right: 5px;">DÉF</span><div class="btn fas fa-sort-amount-down" id="order-def" onclick="invertSort(this)"></div></div>
+                                <div class="filter-btn btn-secondary btn-sm my-1 btn-disabled btn-sort" id="sort-hp" onclick="switchState(this)"><span style="margin-right: 5px;">PV</span><div class="btn fas fa-sort-amount-down" id="order-hp" onclick="invertSort(this)"></div></div>
+                                <div class="filter-btn btn-secondary btn-sm my-1 btn-disabled btn-sort" id="sort-dp" onclick="switchState(this)"><span style="margin-right: 5px;">COÛT PD</span><div class="btn fas fa-sort-amount-down" id="order-dp" onclick="invertSort(this)"></div></div>
+                                <div class="filter-btn btn-secondary btn-sm my-1 btn-disabled btn-sort" id="sort-block" onclick="switchState(this)"><span style="margin-right: 5px;">BLOCAGE</span><div class="btn fas fa-sort-amount-down" id="order-block" onclick="invertSort(this)"></div></div>
+                                <div class="filter-btn btn-secondary btn-sm my-1 btn-enabled btn-sort" id="sort-rarity" onclick="switchState(this)"><span style="margin-right: 5px;">RARETÉ</span><div class="btn fas fa-sort-amount-down" id="order-rarity" onclick="invertSort(this)"></div></div>
                             </div>
-                            <div class="btn btn-danger btn-clear" onclick="resetSorting()">Reset</div>
+                            <div class="btn btn-danger btn-clear" onclick="resetSorting()">Annuler</div>
                         </div>
                     </div>
 
@@ -174,10 +174,10 @@
                     <br />
 
                     <div style="background: #333;color: #ddd; padding: 4px;">
-                        <div style="background: #222; padding: 2px;margin: 2px 0px;">Click Filter to toggle between</div>
-                        <div class="btn ak-disable filter-exclusive filter-name" style="width:80px">Unique</div> Only allows 1 selection
+                        <div style="background: #222; padding: 2px;margin: 2px 0px;">Cliquez sur un filtre pour choisir entre</div>
+                        <div class="btn ak-disable filter-exclusive filter-name" style="width:80px">Unique</div> 1 seule sélection autorisée
                         </br>
-                        <div class="btn ak-disable filter-nonexclusive filter-name" style="width:80px">Union</div> Includes all operator within selection
+                        <div class="btn ak-disable filter-nonexclusive filter-name" style="width:80px">Cumul</div> Inclut tous les Agents correspondant à la sélection
                     </div>
                     <!-- <table>
                         <tr style="color: white"><td><span style="background-color: brown; font-weight: bold; padding: 5px; border-radius: 2px;">Exclusive</span></td><td style="width: 5px;"></td><td>All the criteria must match in a section</td></tr>
@@ -215,7 +215,7 @@
                 <input type='range' class='statlevelInput' value='100' min='50' max='1000' id='charazoomslider' oninput="Zoomchara(this)" style='margin-top:15px;width:80%;'></input>
                 <input class="form-control" id="charazoominput" onchange="Zoomchara(this)" style="line-height:1.1;width:60px;padding:2px;margin:9.5px 2px;text-align: center;background:#999;color:#222;border:none" type="text" value="100">
                 <div id="charazoom-button"></div>
-                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Fermer</button>
             </div>
             </div>
         </div>
@@ -242,7 +242,7 @@
             <div class="modal-footer" style="border-top: 1px solid #2f2f2f">
                 <!-- <div id="charazoom-button"></div> -->
                 <div id="opstorycredits"  style="width:100%;color:#fff"></div>
-                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Fermer</button>
             </div>
         
             </div>
@@ -274,7 +274,7 @@
                     <div style="margin:2px"></div>
                     <div id="opaudioproofreader"  style="width:100%;color:#fff"></div>
                 </div>
-                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Fermer</button>
             </div>
         
             </div>
@@ -284,22 +284,22 @@
         <div class='row'>
             <div class='col-12 ak-bg ak-shadow mt-3' style='padding:15px;padding-top:0%;padding-bottom:0;border-radius:0px' role='alert'>
             <div class='row' style='padding:0;padding-bottom: 4px'>
-                    <div class='col-12 btn btn-sm ak-btn ak-c-black ak-shadow-small ak-disable' style='padding:0' translate-id='operator-select'>Select an operator :</div>
+                    <div class='col-12 btn btn-sm ak-btn ak-c-black ak-shadow-small ak-disable' style='padding:0' translate-id='operator-select'>Sélectionnez un Agent :</div>
             </div>
             <div class='row'>
                 <div id='lefthandtoggle' style='position:absolute;top:-15px;left:20px;background:#222;padding:4px;cursor: pointer;border-radius: 3px'>Left Hand</div>
                 <div class='col-md-7'>
                     <input readonly type='text' name='opID' id='opID' style='display: none;'>
                     <div class='row'>
-                            <input  class='form-control col-5' style='margin: 5px 2px;margin-left: 5px;border-radius: unset;' type='text' autocomplete='off' name='opname' id='opname' onkeyup='populateOperators(this)' placeholder='Type in operator name . .'>
-                            <button class='col-3 btn btn-sm ak-btn ak-rare-bg browse-btn' style='margin:2px 2px;padding: 5px' onclick='populateOperators("Browse")' type='button' id='opBrowseButton2'>Show All</button>
-                            <button class='col-3 btn btn-sm ak-btn ak-rare-bg browse-btn' style='margin:2px 2px;padding: 5px' type='button' id='opBrowseButton'>Browse Grid</button>
+                            <input  class='form-control col-5' style='margin: 5px 2px;margin-left: 5px;border-radius: unset;' type='text' autocomplete='off' name='opname' id='opname' onkeyup='populateOperators(this)' placeholder='Entrez un nom...'>
+                            <button class='col-3 btn btn-sm ak-btn ak-rare-bg browse-btn' style='margin:2px 2px;padding: 5px' onclick='populateOperators("Browse")' type='button' id='opBrowseButton2'>Voir tous</button>
+                            <button class='col-3 btn btn-sm ak-btn ak-rare-bg browse-btn' style='margin:2px 2px;padding: 5px' type='button' id='opBrowseButton'>Voir la grille</button>
                     </div>
                     <div style='position: relative;'><ul class='ak-c-black ak-browse' id='operatorsResult' style='display:none; position: absolute; z-index: 600; list-style-type: none; padding: 5px;color:#222'><li style='cursor: pointer'></li></ul></div>
                 </div>
             </div>
             <div class='row'>
-                    <button class='btn btn-danger col-12 align-self-center ak-btn text-center' style='padding:1px; z-index: 0; font-weight: 550' onclick='clickBtnClear()' ><span translate-id='selector-clear'>Clear</span> <span id='count-tag'></a> </button>
+                    <button class='btn btn-danger col-12 align-self-center ak-btn text-center' style='padding:1px; z-index: 0; font-weight: 550' onclick='clickBtnClear()' ><span translate-id='selector-clear'>Supprimer</span> <span id='count-tag'></a> </button>
             </div>
         </div>
         
@@ -334,18 +334,18 @@
                                 </div>
                                 <div id="Chibi-nav">
                                     <!-- <button class='btn btn-sm ak-chibi-btn' style='background: #aa0000;'type='button' id='' title="Chibi player currently in WIP,need reload to load other thing (also wont stop rendering even not loading properly, refresh to fix) (also most chara chibi isnt included yet)">!</button> -->
-                                    <button class='btn btn-sm ak-chibi-btn' type='button' id='Chibi-Show' title="Show SD">Show SD</button>
+                                    <button class='btn btn-sm ak-chibi-btn' type='button' id='Chibi-Show' title="Show SD">Voir SD</button>
                                     <button class='btn btn-sm ak-chibi-btn' type='button' id='Chibi-Show-menu' title="Show Menu">Menu</button>
                                     <div id='Chibi-menu' class='chibi-menu-closed'>
-                                        <button class='btn btn-sm ak-chibi-btn' type='button' id='Chibi-Bg' title="Change Background"><i class="fas fa-paint-roller"></i></button>
-                                        <!-- <button class='btn btn-sm ak-chibi-btn' type='button' id='Chibi-Scale' title="Change Chibi Scale"><i class="fas fa-search-plus"></i></button> -->
-                                        <button class='btn btn-sm ak-chibi-btn' type='button' id='Chibi-Perspective' title="Change Perspective">P</button>
+                                        <button class='btn btn-sm ak-chibi-btn' type='button' id='Chibi-Bg' title="Changer fond"><i class="fas fa-paint-roller"></i></button>
+                                        <!-- <button class='btn btn-sm ak-chibi-btn' type='button' id='Chibi-Scale' title="Changer taille Chibi"><i class="fas fa-search-plus"></i></button> -->
+                                        <button class='btn btn-sm ak-chibi-btn' type='button' id='Chibi-Perspective' title="Changer Perspective">P</button>
                                         <button class="btn btn-sm ak-chibi-btn" id="Chibi-download" title='Experimental Saving'><i class="far fa-save"></i></button>
                                         <button class="btn btn-sm ak-chibi-btn" id="Chibi-frameSize" title='Experimental Resize'>R</button>
                                         
                                         <!-- <button class="btn btn-sm ak-chibi-btn" id="Chibi-console" onclick='CheckChibi()' title='Check'>C</button> -->
                                         <div style='display:inline-flex'>
-                                            <button class='btn btn-sm ak-chibi-btn' type='button' id='Chibi-Scale' title="Reset Scale"><i class="fas fa-search-plus"></i></button> 
+                                            <button class='btn btn-sm ak-chibi-btn' type='button' id='Chibi-Scale' title="Taille initiale"><i class="fas fa-search-plus"></i></button> 
                                             <input type='range' class='statlevelInput' value='1' min='0' max='50' id='chibizoomslider' oninput="ZoomChibi(this)" style='margin:3px 0px;width:100%'></input>
                                         </div>
                                     </div>
@@ -393,14 +393,14 @@
                                     <ul class="nav nav-pills nav-justified">
                                         <li class="nav-item"><a class="nav-link active" data-toggle="pill" href="#sidemenutab-details" style="border-top-right-radius: 0px; border-bottom-right-radius: 0px;">Chara</a></li>
                                         <li class="nav-item"><a class="nav-link" data-toggle="pill" href="#sidemenutab-talents" style="border-radius: unset;">Talents</a></li>
-                                        <li class="nav-item"><a class="nav-link" data-toggle="pill" href="#sidemenutab-skills" style="border-radius: unset;">Skills</a></li>
-                                        <li class="nav-item"><a class="nav-link" data-toggle="pill" href="#sidemenutab-elite" style="border-top-left-radius: 0px; border-bottom-left-radius: 0px;">Elite</a></li>
+                                        <li class="nav-item"><a class="nav-link" data-toggle="pill" href="#sidemenutab-skills" style="border-radius: unset;">Compétences</a></li>
+                                        <li class="nav-item"><a class="nav-link" data-toggle="pill" href="#sidemenutab-elite" style="border-top-left-radius: 0px; border-bottom-left-radius: 0px;">Élite</a></li>
                                     </ul>
                                 </div>-->
                                 <!-- <div class="potential-container" style="position: relative; margin-bottom: 20px">
                                     <ul class='nav nav-pills' id='potential-tabs'>
                                         <li class='nav-item'>
-                                            <button class='btn tabbing-btns horiz-small nav-link active' data-toggle='pill' href='#potential'><p>Potential</p></button>
+                                            <button class='btn tabbing-btns horiz-small nav-link active' data-toggle='pill' href='#potential'><p>Potentiel</p></button>
                                             <button class='btn tabbing-btns horiz-small nav-link' data-toggle='pill' href='#talent'><p>Talent</p></button>
                                         </li>
                                     </ul>
@@ -423,9 +423,9 @@
                                                         <td colspan='4' class='potentialdesc'>Desc</td>
                                                     </tr>
                                                     <tr>
-                                                        <td class='stats-l'>SP Cost :</td>
+                                                        <td class='stats-l'>Coût en PC :</td>
                                                         <td class='stats-r'>xxx</td>
-                                                        <td class='stats-l'>Duration :</td>
+                                                        <td class='stats-l'>Durée :</td>
                                                         <td class='stats-r'>xxx</td>
                                                     </tr>
                                                 </table>
@@ -488,7 +488,7 @@
                                     <div class="skillsection-container" id="sidemenutab-skills" style="position: relative; margin-top: 0px;">
                                         <ul class='nav nav-pills' id='skill-tabs'>
                                             <li class='nav-item'>
-                                                <button class='btn tabbing-btns horiz-small nav-link active' data-toggle='pill' href='#skill1'><p>Skill 1</p></button>
+                                                <button class='btn tabbing-btns horiz-small nav-link active' data-toggle='pill' href='#skill1'><p>Compétence 1</p></button>
                                             </li>
                                         </ul>
                                         <div class="tab-content" id="skill-contents">
@@ -527,7 +527,7 @@
                                                     <p class='large-text'>Base</p>
                                                     <span class='custom-span'>Stats</span>
                                                     <div class='topright maxlevel'>
-                                                        <span class='maxleveltext'>Max Level</span>
+                                                        <span class='maxleveltext'>Niveau Max</span>
                                                         <span class='leveltext'>50</span>
                                                         <div class='ring'>
                                                             <div class='back ak-shadow'></div>
@@ -546,16 +546,16 @@
                                                         <div class='tab-pane container active' id='#elite1Stats1'>
                                                             <table id='elite1Stats1Table'>
                                                                 <tr>
-                                                                    <td class='stats-l'>MaxHP :</td><td class='stats-r'>xxx</td><td class='stats-l'>Deploy :</td><td class='stats-r'>xxx</td>
+                                                                    <td class='stats-l'>PvMax :</td><td class='stats-r'>xxx</td><td class='stats-l'>Redéploiement :</td><td class='stats-r'>xxx</td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td class='stats-l'>Atk :</td><td class='stats-r'>xxx</td><td class='stats-l'>Cost :</td><td class='stats-r'>xxx</td>
+                                                                    <td class='stats-l'>Atq :</td><td class='stats-r'>xxx</td><td class='stats-l'>Coût :</td><td class='stats-r'>xxx</td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td class='stats-l'>Def :</td><td class='stats-r'>xxx</td><td class='stats-l'>Block :</td><td class='stats-r'>xxx</td>
+                                                                    <td class='stats-l'>Déf :</td><td class='stats-r'>xxx</td><td class='stats-l'>Blocage :</td><td class='stats-r'>xxx</td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td class='stats-l'>MRes :</td><td class='stats-r'>xxx</td><td class='stats-l'>AtkSp :</td><td class='stats-r'>xxx</td>
+                                                                    <td class='stats-l'>ResA :</td><td class='stats-r'>xxx</td><td class='stats-l'>Délai d'attaque :</td><td class='stats-r'>xxx</td>
                                                                 </tr>
                                                             </table>
                                                         </div>
@@ -563,7 +563,7 @@
                                                 </div>
                                                 <div class='elite-1 small-container ak-shadow'>
                                                     <p>Elite 1</p>
-                                                    <span class='custom-span'>Required materials</span>
+                                                    <span class='custom-span'>Matériaux requis</span>
                                                     <img class='topright' src='img/ui/elite/1.png' width='100'>
                                                     <button class='btn btn-default btn-collapsible' data-toggle='collapse' data-target='#eliteMatsCollapsible'><i class='fa fa-sort-down'></i></button>
 
