@@ -2,6 +2,7 @@
     {
         "type_cn":"攻击造成法术伤害",
         "type_en":"Spell damage",
+        "type_fr":"Dommages d'Art",
         "type_jp":"敵に術ダメーゾを与える",
         "type_kr":"",
         "type_color":"magic"
@@ -9,6 +10,7 @@
     {
         "type_cn":"同时攻击阻挡的所有敌人",
         "type_en":"Attack multiple enemies equal to block count",
+        "type_fr":"Attaque autant d'ennemis que le score de blocage",
         "type_jp":"ブロツク中の敵全員を同時に攻撃",
         "type_kr":"",
         "type_color":"physical"
@@ -16,6 +18,7 @@
     {
         "type_cn":"攻击造成群体物理伤害",
         "type_en":"Physical Splash Damage",
+        "type_fr":"Dommages physiques de zone",
         "type_jp":"",
         "type_kr":"",
         "type_color":"physical"
@@ -23,6 +26,7 @@
     {
         "type_cn":"攻击造成超远距离的群体法术伤害",
         "type_en":"Super Long Range Splash Spell Damage",
+        "type_fr":"Dommages d'Art de zone longue portée",
         "type_jp":"",
         "type_kr":"",
         "type_color":"magic"
@@ -30,6 +34,7 @@
     {
         "type_cn":"可以进行远程攻击",
         "type_en":"Can perform ranged attack",
+        "type_fr":"Peut attaquer à distance",
         "type_jp":"",
         "type_kr":"",
         "type_color":"physical"
@@ -37,6 +42,7 @@
     {
         "type_cn":"可以攻击到较远敌人",
         "type_en":"Can attack distant enemies",
+        "type_fr":"Peut attaquer les ennemis éloignés",
         "type_jp":"",
         "type_kr":"",
         "type_color":"physical"
@@ -44,6 +50,7 @@
     {
         "type_cn":"攻击造成群体法术伤害",
         "type_en":"Splash Magic Damage",
+        "type_fr":"Dommages d'Art de zone",
         "type_jp":"",
         "type_kr":"",
         "type_color":"magic"
@@ -51,6 +58,7 @@
     {
         "type_cn":"再部署时间大幅度减少",
         "type_en":"Greatly Decreased Redeployment Time",
+        "type_fr":"Délai de redéploiement grandement réduit",
         "type_jp":"",
         "type_kr":"",
         "type_color":"extra"
@@ -58,6 +66,7 @@
     {
         "type_cn":"技能可以使敌人产生位移",
         "type_en":"Skill can displace enemy",
+        "type_fr":"Les compétences peuvent déplacer les ennemis",
         "type_jp":"",
         "type_kr":"",
         "type_color":"extra"
@@ -65,6 +74,7 @@
     {
         "type_cn":"对攻击范围内造成伤害所有敌人",
         "type_en":"Attack all enemy in range",
+        "type_fr":"Attaque tous les ennmis à portée",
         "type_jp":"",
         "type_kr":"",
         "type_color":"extra"
@@ -72,6 +82,7 @@
     {
         "type_cn":"优先攻击攻击范围内的敌方单位防御力最低",
         "type_en":"Targets lowest defense enemy",
+        "type_fr":"Attaque en priorité l'ennemi avec la défense la plus basse",
         "type_jp":"",
         "type_kr":"",
         "type_color":"physical"
@@ -79,6 +90,7 @@
     {
         "type_cn":"持续恢复攻击范围内所有友军的（每秒恢复相当于空攻击力10%的生命）生命",
         "type_en":"Heal all allies in range </br>(Equal to 10% of attack power every second)",
+        "type_fr":"Soigne tous les alliés à portée </br>(Egal à 10% de la puissance d'attaque chaque seconde)",
         "type_jp":"",
         "type_kr":"",
         "type_color":"heal"
@@ -86,6 +98,7 @@
     {
         "type_cn":"且不受限制部署数量",
         "type_en":"Ignore deploy limits",
+        "type_fr":"Ignore la limite de déploiement",
         "type_jp":"",
         "type_kr":"",
         "type_color":"extra"
@@ -93,6 +106,7 @@
     {
         "type_cn":"无法被友方角色治疗",
         "type_en":"Cannot be healed by friendly unit",
+        "type_fr":"Ne peut pas être soigné par les alliés",
         "type_jp":"",
         "type_kr":"",
         "type_color":"extra"
@@ -100,6 +114,7 @@
     {
         "type_cn":"可以使用协助作战召唤物",
         "type_en":"Can use summons in battle",
+        "type_fr":"Peut utiliser des invocations",
         "type_jp":"",
         "type_kr":"",
         "type_color":"extra"
@@ -107,6 +122,7 @@
     {
         "type_cn":"并对敌人造成短暂的停顿",
         "type_en":"Slows enemy",
+        "type_fr":"Ralentit les ennemis",
         "type_jp":"",
         "type_kr":"",
         "type_color":"extra"
@@ -114,6 +130,7 @@
     {
         "type_cn":"拥有50%的物理和法术闪避且不容易成为敌人的攻击目标",
         "type_en":"50% Physical & Magical Dodge</br>Harder to be targeted",
+        "type_fr":"50% d'Esquive Physique et d'Art</br>Plus difficile à cibler",
         "type_jp":"",
         "type_kr":"",
         "type_color":"extra"
@@ -121,6 +138,7 @@
     {
         "type_cn":"优先攻击空中单位",
         "type_en":"Prioritize attacking air units",
+        "type_fr":"Attaque les unités aériennes en priorité",
         "type_jp":"",
         "type_kr":"",
         "type_color":"",
@@ -129,6 +147,7 @@
     {
         "type_cn":"能够阻挡三个敌人",
         "type_en":"Can block 3 enemies",
+        "type_fr":"Bloque 3 ennemis",
         "type_jp":"敵を3体敵をまでブロツク",
         "type_kr":"",
         "type_color":"",
@@ -137,6 +156,7 @@
     {
         "type_cn":"能够阻挡两个敌人",
         "type_en":"Can block 2 enemies",
+        "type_fr":"Bloque 2 ennemis",
         "type_jp":"敵を2体敵をまでブロツク",
         "type_kr":"",
         "type_color":"",
@@ -145,6 +165,7 @@
     {
         "type_cn":"能够阻挡一个敌人",
         "type_en":"Can block single enemy",
+        "type_fr":"Bloque un seul ennemi",
         "type_jp":"敵を1体敵をまでブロツク",
         "type_kr":"",
         "type_color":"",
@@ -153,6 +174,7 @@
     {
         "type_cn":"恢复友方单位生命",
         "type_en":"Heal friendly unit",
+        "type_fr":"Soigne les alliés",
         "type_jp":"味方のHPを回復",
         "type_kr":"",
         "type_color":"heal",
@@ -161,6 +183,7 @@
     {
         "type_cn":"同时恢复三个友方单位的生命",
         "type_en":"Heal up to 3 friendly unit at once",
+        "type_fr":"Soigne jusqu'à 3 alliés à la fois",
         "type_jp":"",
         "type_kr":"",
         "type_color":"heal",
@@ -169,6 +192,7 @@
     {
         "type_cn":"技能可以治疗友方单位",
         "type_en":"Skills heal friendly unit",
+        "type_fr":"La compétence soigne les alliés",
         "type_jp":"",
         "type_kr":"",
         "type_color":"heal",
@@ -177,6 +201,7 @@
     {
         "type_cn":"高精度的近距离射击",
         "type_en":"High precision close range shooting",
+        "type_fr":"Tirs de haute précision à courte distance",
         "type_jp":"",
         "type_kr":"",
         "type_color":"",
@@ -193,6 +218,7 @@
     {
         "type_cn":"撤退时返还初始部署费用",
         "type_en":"Full cost refund on retreat",
+        "type_fr":"Coût entièrement remboursé lorsque retraité",
         "type_jp":"",
         "type_kr":"",
         "type_color":"",
@@ -201,6 +227,7 @@
     {
         "type_cn":"可以放置于远程位",
         "type_en":"Can be placed on higher ground",
+        "type_fr":"Peut être déployé en hauteur",
         "type_jp":"",
         "type_kr":"",
         "type_color":"",
@@ -209,6 +236,7 @@
     {
         "type_cn":"不进行攻击",
         "type_en":"Does not attack",
+        "type_fr":"N'attaque pas",
         "type_jp":"",
         "type_kr":"",
         "type_color":"",
@@ -217,6 +245,7 @@
     {
         "type_cn":"但此时攻击力降低至80%",
         "type_en":"However attack power will be reduced to 80%",
+        "type_fr":"Cependant la puissance d'attaque est réduite à 80%",
         "type_jp":"",
         "type_kr":"",
         "type_color":"",
@@ -225,6 +254,7 @@
     {
         "type_cn":"但再部署时间极长",
         "type_en":"Long redeployment time",
+        "type_fr":"Délai de redéploiement élevé",
         "type_jp":"",
         "type_kr":"",
         "type_color":"",
@@ -233,6 +263,7 @@
     {
         "type_cn":"普通攻击连续造成伤害两次",
         "type_en":"Regular attacks deal damage twice",
+        "type_fr":"Les attaques normales infligent deux fois des dégâts",
         "type_jp":"",
         "type_kr":"",
         "type_color":"physical"
@@ -240,6 +271,7 @@
     {
         "type_cn":"不成为其他角色的治疗目标",
         "type_en":"Cannot be healed by other operators",
+        "type_fr":"Ne peut pas être soigné par les autres agents",
         "type_jp":"",
         "type_kr":"",
         "type_color":"physical"
@@ -247,6 +279,7 @@
     {
         "type_cn":"每次攻击到敌人后回复自身生命{value}",
         "type_en":"Heal {value} on every hit on enemies",
+        "type_fr":"Se soigne de {value} à chaque coup porté",
         "type_jp":"",
         "type_kr":"",
         "type_color":"physical"
@@ -254,13 +287,14 @@
     {
         "type_cn":"拥有较大治疗范围",
         "type_en":"Larger Healing Range",
-        "type_jp":"",
+        "type_fr":"Portée des soins augmentée",
         "type_kr":"",
         "type_color":"heal"
     },
     {
         "type_cn":"但在治疗较远目标时治疗量变为{heal_scale:0%}",
         "type_en":"However attack power will be reduced to {heal_scale:0%} <br>when healing distant target",
+        "type_fr":"Cependant la puissance d'attaque est réduite à {heal_scale:0%} <br>pour les cibles éloignées",
         "type_jp":"",
         "type_kr":"",
         "type_color":"physical"
@@ -268,6 +302,7 @@
     {
         "type_cn":"技能发动期间阻挡数变为0",
         "type_en":"Reduce block count to 0 when using skills",
+        "type_fr":"Le score de blocage est réduit à 0 quand la compétence est active",
         "type_jp":"",
         "type_kr":"",
         "type_color":"physical"
@@ -275,6 +310,7 @@
     {
         "type_cn":"技能开启时普通攻击会造成法术伤害",
         "type_en":"Attack cause spell damage on skill",
+        "type_fr":"Les attaques infligent des dommages d'Art quand la compétence est active",
         "type_jp":"",
         "type_kr":"",
         "type_color":"magic"
@@ -282,6 +318,7 @@
     {
         "type_cn":"攻击范围内的所有敌人",
         "type_en":"Attacks all enemy in range",
+        "type_fr":"Attaque tous les ennemis à portée",
         "type_jp":"",
         "type_kr":"",
         "type_color":"common"
@@ -289,6 +326,7 @@
     {
         "type_cn":"对自己前方一横排的敌人攻击力提升至150%",
         "type_en":"Deal 150% damage to enemies a row ahead",
+        "type_fr":"Inflige 150% de dommages aux ennemis en ligne droite",
         "type_jp":"",
         "type_kr":"",
         "type_color":"common"
@@ -296,6 +334,7 @@
     {
         "type_cn":"自身生命会不断减少",
         "type_en":"Self HP will decreases over time",
+        "type_fr":"Baisse automatique des PV",
         "type_jp":"",
         "type_kr":"",
         "type_color":"debuff"
@@ -303,6 +342,7 @@
     {
         "type_cn":"被友方角色治疗无法",
         "type_en":"Cannot be healed by allies",
+        "type_fr":"Ne peut pas être soigné par les alliés",
         "type_jp":"",
         "type_kr":"",
         "type_color":"physical"
@@ -310,6 +350,7 @@
     {
         "type_cn":"且会在个敌人间跳跃3",
         "type_en":"Attacks bounce between up to 3 times",
+        "type_fr":"Les attaques rebondissent entre les ennemis jusqu'à 3 fois",
         "type_jp":"",
         "type_kr":"",
         "type_color":"physical"
@@ -317,6 +358,7 @@
     {
         "type_cn":"每次跳跃伤害降低25%并造成短暂停顿",
         "type_en":"Reduce damage by 25% each time and inflicting slow for 0.2 seconds",
+        "type_fr":"Réduit les dommages de 25% à chaque fois et inflige Ralentissement pendant 0.2 secondes",
         "type_jp":"",
         "type_kr":"",
         "type_color":"physical"
