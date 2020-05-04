@@ -2,9 +2,9 @@
   {
     "name": "Savage",
     "camp": "Rembid",
-    "type": "Garde",
+    "type": "Guard",
     "level": 5,
-    "sex": "Femme",
+    "sex": "Female",
     "characteristic": "",
     "tags": [
       "三测暂不实装"
@@ -15,13 +15,13 @@
   {
     "name": "Lancet-2",
     "camp": "Rhodes Island",
-    "type": "Médecin",
+    "type": "Medic",
     "level": 1,
-    "sex": "Femme",
-    "characteristic": "Restaure les points de vie des unités alliées et n'est pas affectée par la limite de déploiement. Délai de redéploiement augmenté",
+    "sex": "Female",
+    "characteristic": "Restore the life of friendly units, and is not limited by the number of deployments, but the deployment time is extremely long",
     "tags": [
-      "Distance",
-      "Soin"
+      "Ranged",
+      "Healing"
     ],
     "hidden": false,
     "name-en": "Lancet-2"
@@ -29,9 +29,9 @@
   {
     "name": "Castle-3",
     "camp": "Rhodes Island",
-    "type": "Garde",
+    "type": "Guard",
     "level": 1,
-    "sex": "Homme",
+    "sex": "Male",
     "characteristic": "Can block an enemy without being limited by the number of deployments, but it takes a very long time to deploy",
     "tags": [
       "Melee",
